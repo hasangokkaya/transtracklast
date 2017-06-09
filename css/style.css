@@ -1,0 +1,210 @@
+body{	
+}
+#icerik{
+	width:960px;
+	margin:0px auto;
+}
+#header{
+	width:960px;
+	height:120px;
+	background-color:#ff6600;
+	float:left;
+}
+#logo{
+	width:417px;
+	height:102px;
+	margin-left:272px;
+	float:left;
+}
+#menu{
+	width:960px;
+	height:45px;
+	background-color:#006699;
+	float:left;
+}
+#menuUlSecenek{
+margin-top:0px;
+padding-left:0px;
+}
+.menuSecenek{
+-webkit-transition-property: height, width;
+list-style-type:none;
+float:left;
+color:white;
+padding-left:10px;
+}
+.menuResimButon{
+	max-width:60px;
+	height:45px;
+	float:left;
+	padding-left:6px;
+}
+.menuResimButon:hover{
+	transform: scale(1.2);
+}
+#entry{
+	width:240px;
+	height:30px;
+	text-align: center;
+	background-color:#006699;
+	margin:0px 0px 0px 0px;
+	float:left;
+}	
+#entrance{
+	width:85px;
+	height:30px;
+	color:#000000;
+	background-color:#ffffff;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+#mail, #pw {
+    border: 1px solid #ccc;
+    padding: 3px;
+    margin-right: 0px;
+	width:75px;
+	height:30px;
+	color:#000000;
+	background-color:#ffffff;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+#submit {
+    border: 0px solid #E0E3E5 !important;
+    font-size: 11px !important;
+    font-weight: bold !important;
+    height: 39px !important;
+	width : 50px;
+    margin-left: 0 !important;
+    
+    margin-right: 0px;
+}
+#google_map{
+	width:720px;
+	height:630px;
+	float:left;
+}
+
+h1.heading{padding:0px;margin: 0px 0px 10px 0px;text-align:center;font: 18px Georgia, "Times New Roman", Times, serif;}
+/* Marker Edit form */
+.marker-edit label{display:block;margin-bottom: 5px;}
+.marker-edit label span {width: 100px;float: left;}
+.marker-edit label input, .marker-edit label select{height: 28px;}
+.marker-edit label textarea{height: 60px;}
+.marker-edit label input, .marker-edit label select, .marker-edit label textarea {width: 60%;margin:0px;padding-left: 5px;border: 1px solid #DDD;border-radius: 3px;}
+
+/* Marker Info Window */
+h1.marker-heading{color: #585858;margin: 0px;padding: 0px;font: 18px "Trebuchet MS", Arial;border-bottom: 1px dotted #D8D8D8;}
+div.marker-info-win {max-width: 300px;margin-right: -20px;}
+div.marker-info-win p{padding: 0px;margin: 10px 0px 10px 0;}
+div.marker-inner-win{padding: 5px;}
+button.save-marker, button.remove-marker{border: none;background: rgba(0, 0, 0, 0);color: #00F;padding: 0px;text-decoration: underline;margin-right: 10px;cursor: pointer;
+}
+#information{
+	width:240px;
+	height:630px;
+	background-color:#006699;
+	float:left;
+	display:block;
+}
+.info{
+	width:230px;
+	height:30px;
+	text-align: center;
+	background-color:#006699;
+	margin:5px 5px 0px 5px;
+	float:left;
+}	
+#signin{
+	width:100px;
+	height:30px;
+	color:#000000;
+	background-color:#ffffff;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+
+#nation{
+	width:35px;
+	height:30px;
+}
+#photograph{
+	width:218px;
+	height:142px;
+	float:left;
+	background-color:#006699;
+}
+#photo{
+	width:218px;
+	height:142px;
+}
+.aciklama{
+	font-family: Myriad Pro;
+	font-size:14px;
+	color:#ffffff;
+	padding:5px 0px 5px 0px;
+}
+#alarm{
+	width:218px;
+	height:120px;
+	background-color:#ff0000;
+	text-align: center;
+	margin:0px 0px 0px 0px;
+	float:left;
+}	
+#warning{
+	width:218px;
+	height:30px;
+	background-color:#cc0000;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+#table{
+	width:960px;
+	height:150px;
+	color:#ffffff;
+	text-align: center;
+	background-color:#006699;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+#table1{
+	width:238px;
+	height:330px;
+	color:#ffffff;
+	text-align: center;
+	background-color:#006699;
+	margin:0px 0px 0px 0px;
+	float:left;
+}
+#footer{
+	width:960px;
+	height:55px;
+	background-color:#ff6600;
+	float:left;
+	margin-top:0px 0px 0px 0px;
+}
+#footerUlSecenek{
+margin-top:10px;
+padding:0px 0px 0px 10px;
+}	
+.footerSecenek{
+list-style-type:none;
+float:left;
+color:white;
+padding-left:15px;
+margin:0px 0px 0px 0px;
+font-size:23px;
+}
+.footerSecenek:hover{
+list-style-type:none;
+float:left;
+color:white;
+padding-left:15px;
+margin:0px 0px 0px 0px;
+font-size:23px;
+box-shadow: 0px 0px 100px 0px #000000;
+z-index: 2;
+transition: all 200ms ease-in;
+transform: scale(1.2);
+}
